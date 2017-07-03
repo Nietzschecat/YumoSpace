@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+
+  <title>yumo·space</title>
+  <!--网页主题-->
+  <meta name="description" content="Yumo space">
+  <!--[if lt IE 9]><script type="text/javascript">alert('亲 你的浏览器弱爆了');</script><![endif]-->
+  <!--控制浏览器缩放等显示-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!--界面字体优化-->
+  <script type="text/javascript" src="js//gti1xju.js"></script>
+  <!--使用Typekit提供的在线字体-->
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!--对所有的默认样式进行重置-->
+  <link rel="stylesheet" href="css//normalize.css">
+  
+  <!--样式设计-->
+  <link rel="stylesheet" href="css//layout.css">
+  
+  <!--在网之前显示的图标-->
+  <link rel="shortcut icon" href="images//yumo.ico">
+
+</head>
+
+
+<body>
+	
+<style type="text/css">
+/* 焦点轮换图样式设计 */
+#focus_Box{width:710px;height:308px;color:pink;padding:150px;margin:auto;}
+#focus_Box ul{position:relative;width:710px;height:308px;color:yellow;}
+#focus_Box li{z-index:0;position:absolute; width:0px;background:#787878;height:0px;top:146px;cursor:pointer;left:377px;border-radius:4px;box-shadow:1px 1px 12px rgba(200, 200, 200, 1);color:blue;}
+#focus_Box li img{width:100%;background:url(images/loading.gif) no-repeat center 50%;height:100%;vertical-align:top}
+#focus_Box .prev,#focus_Box .next{display:block;z-index:100;overflow:hidden;cursor:pointer;position:absolute;width:52px;height:52px;top:131px;}
+#focus_Box .prev{background:url() left bottom no-repeat;left:0px}
+#focus_Box .next{background:url() right bottom no-repeat;right:0px} 
+#focus_Box .prev:hover{background-position:left top;}
+#focus_Box .next:hover{background-position:right top;}
+</style>
+<script src="js/ZoomPic.js"></script>
+  
+
+<div class="clear"></div>
+<!--页首-->
+  <div id="guide"></div>
+  
+  <div id="header-container" class="container">
+    <header id="top-header">
+      <ul id="top-menu" class="block">
+        <li><a href="#focus">My Word</a></li>
+        <li><a href="#story">My struggle</a></li>
+        <li><a href="#offer">My Story</a></li>
+        <li><a href="#team-top-container">My Love</a></li>
+        <li><a href="#contact">Make friends</a></li>
+        <li><a href="http://user.qzone.qq.com/737021031">QQ</a></li>
+      </ul>
+<!--背景音乐设计-->
+      <div id="top-logo" class="block"> 
+      <img src="images//M2.gif" id="music" name="start"  onclick="play(this)"/>
+      <embed id="MediaPlaye" name="MediaPlaye" src='1.mp3'  autostart='true' loop='0' hidden='no' width='0' height='0'></embed>
+      <div style="font-size:18px;height:30px;  width:250px;float:left;margin:9px auto; " >邓紫棋-The Continent&nbsp&nbsp</div>
+      <script>
+      function play(obj)
+      {
+      sta=document.getElementById("music").name;
+      if (sta=="start")
+     {
+        obj.src="images//M1.gif";
+        obj.name="stop";
+        document.embeds('MediaPlaye').pause();
+      }
+      else
+     {
+        obj.src="images//M2.gif";
+        obj.name="start";
+        document.embeds('MediaPlaye').play();
+      }
+       }
+      </script>
+      </div>
+    </header>
+  </div>
+  <!--清除浮动-->
+  <div class="clear"></div>
+  
+
+<!--第一主页-->
+  <div style="background-position: center -54px;" id="title-container" class="container">
+    <section id="title">
+      <h1 id="title-text"><span class="c c0">Y</span><span class="c c1">u</span><span class="c c2">m</span><span class="c c3">o</span> <span class="c s c4"></span><span class="c white c5">S</span><span class="c white c6">p</span><span class="c white c7">a</span><span class="c white c8">c</span><span class="c white c9">e</span><span class="c white c10"> </span></h1>
+      <div id="title-arrow">
+        <a class="no-offset not-mobile" href="#intro"><img src="images/title-arrow.png" alt="Down arrow"></a>
+        <a class="mobile" href="#intro"><img src="images/title-arrow.png" alt="Down arrow"></a>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+  
+  
+<!--再度显示页眉-->
+  <div style="display: none;" id="second-menu-container" class="container">
+    <section id="second-menu">
+      <ul id="menu" class="block">
+        <li id="menu-focus"><a class="" href="#focus">my word</a></li>
+        <li id="menu-offer"><a class="" href="#story">my struggle</a></li>
+        <li id="menu-story"><a class="" href="#offer">my story</a></li>
+        <li id="menu-team"><a class="" href="#team-top-container">my love</a></li>
+        <li id="menu-contact"><a class="" href="#contact">Make friends</a></li>
+        <li><a href="http://user.qzone.qq.com/737021031">QQ</a></li>
+      </ul>
+      <div id="menu-logo" class="block">
+        <a href="#header-container">yumo</a>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+ 
+
+<!--第二主页-->
+  <div id="intro-container" class="container">
+    <section id="intro">
+      <div id="intro-text" class="block">
+        <h2>YM yumo</h2>
+        <p class="bold">the world just give you nothing</p>
+        <p>在这个世界 我们哭过 笑过 有过辛酸 有过欣喜 有些事我们无法选择 既然已经来了 一定要活出个人样</p>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+  
+  
+  
+<!--第三主页-->
+  <div style="background-position: 379.5px -54px;" id="focus-container" class="container">
+    <section id="focus">
+      <div id="focus-text" class="block">
+        <h2>Nothing Can Stop Us</h2>
+        <p id="focus-bold" class="bold">just hold on</p>
+        <p id="focus-body">生活总有那么多的困难 那么多的艰辛 可是我们永不会放弃 我们什么都不怕 岁月不老 我心依旧 依旧狂傲不羁</p>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+  
+
+  <!--第四主页 -->
+  <div id="story-container" class="container">    
+    <section id="story">
+      <div id="story-heading-mobile" class="block">
+        <h2></h2>
+      </div>
+      <div id="story-text" class="block">
+        <p class="bold">Everybody just so so</p>
+        <p>没有谁注定是赢家 也没有谁生来就注定成功 每个人都是平凡的人类 再伟大的人生也有平凡的而一面 只要你有信心 别人能做到的你也能</p>
+      </div>
+      <div id="story-heading" class="block">
+      <h2>You Can Not Say Who Is Winner</h2>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+  
+ 
+  <!-- 第五主页 -->
+  <div id="offer-container" class="container">    
+    <section id="offer">
+      <div id="offer-text" class="block">
+        <h2>When You Come To Me</h2>
+        <p id="offer-bold" class="bold">Say noting But in fact I love you</p>
+        <p id="offer-body">我写过世界上最美的风景 却永远无法描述你的美 世上美丽的女孩那么多 但能遇到相爱相惜的人又有多少 当你走向我 我会紧紧抱住你 一万年不放手 原谅我只是不想错过你</p>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+
+
+<!-- 第六主页 -->
+  <div id="team-top-container">
+  	
+<div id="focus_Box">
+	<span class="prev">&nbsp;</span>
+	<span class="next">&nbsp;</span>
+	<ul>
+		<li>
+			<a><img width="445" height="308" src="images/r1.jpg" /></a>
+		</li>
+		
+		<li>
+			<a><img width="445" height="308" src="images/r2.jpg" /></a>
+		</li>
+		
+		<li>
+			<a><img width="445" height="308" src="images/r3.jpg" /></a>
+		</li>
+		
+		<li>
+			<a><img width="445" height="308" src="images/r4.jpg" /></a>
+		</li>
+		
+		<li>
+			<a><img width="445" height="308" src="images/r5.jpg" /></a>
+		</li>
+	</ul>
+</div>
+  
+  </div>
+  <div class="clear"></div>
+
+
+  <div id="team-bottom-container" class="container"> 
+    <section id="team">
+      <div id="team-details">
+        <div id="team-heading" class="block">
+          <h2>lover</h2>
+        </div>
+        <div id="team-dave" class="block">
+          <h3>韩寒</h3>
+          <p class="team-title">后会无期</p>
+          <p>当一艘船沉入海底，当一个人成了谜，你不知道，他们为何离去，
+          	那声再见竟是他最后一句。当一辆车消失天际，当一个人成了谜，
+          	你不知道，他们为何离去，就像你不知道这竟是结局。</p>
+        </div>
+        <div id="team-thomas" class="block">
+          <h3>王国维</h3>
+          <p class="team-title">人间词话</p>
+          <p>古今成就大事业、大学问者，必经过三种境界：
+             苦境 昨夜西风凋碧树，独上高楼，望尽天涯路，此第一境也。
+             韧境 衣带渐宽终不悔，为伊消得人憔悴，此第二境也。
+             乐境 众里寻她千百度，蓦然回首，那人却在灯火阑珊处，此第三境也。</p>
+        </div>
+        <div id="team-katie" class="block">
+          <h3>三毛</h3>
+          <p class="team-title">左手倒影 右手年华</p>
+          <p>有些人会一直刻在记忆里的，即使忘记了他的声音，忘记了他的
+          	 笑容，忘记了他的脸，但是每当想起他时的那种感受，是永远都
+          	 不会改变的.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+  
+  
+  <!--最后主页-->
+  <div id="contact-container" class="container">    
+    <section id="contact">
+      <div id="contact-text" class="block">
+        <div id="contact-deets">
+        </div>
+        <div id="contact-heading">
+          <h2>Make Friends with us</h2>
+        </div>
+        <div id="contact-address" class="block">
+          <p>Make friend with me</p>
+        </div>
+        <div id="contact-info" class="block">
+          <p>Email <a>737021031@qq.com</a> <br>QQ   <a href="http://user.qzone.qq.com/737021031">737021031</a> <br><a href="https://www.facebook.com/brandvillageblog">Name 斜阳雨陌（yumo）</a></p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+  
+  
+<!--页尾-->
+  <div id="footer-container" class="container">    
+    <footer id="footer">
+      <div id="footer-text" class="block">
+        <span>©1993 YM yumo</span> ·
+        <span><a>斜阳雨陌</a></span> ·
+        <span><a>版权所有</a></span>
+      </div>
+      <div id="footer-logo" class="block">
+        <a href="#header-container">yumo</a>
+      </div>
+    </footer>
+  </div>
+
+
+  <!--Javascript框架-->
+  <script src="js//jquery-1.js"></script>
+  <script src="js//jquery.js"></script>
+  <script src="js//jquery_002.js"></script>
+  <!--自动使用高分辨率图片的脚本-->
+  <script src="js//retina.js"></script>
+  <!--轻量级、开源的JavaScript UI库-->
+  <script src="js//app.js"></script>
+
+</body></html>

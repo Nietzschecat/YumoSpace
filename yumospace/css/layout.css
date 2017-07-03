@@ -1,0 +1,1720 @@
+/* thank-etc-ok.com */
+
+/* Guide */
+
+div#guide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('') no-repeat center top;
+  height: 4657px;
+  width: 100%;
+  z-index: 101;
+  opacity: 0.3;
+}
+
+/* Base styles */
+
+* {
+  outline: none !important;
+  -moz-outline-style: none;
+}
+
+body {
+  font-family: "proxima-nova", arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  float: left;
+  display: inline;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 64px;
+  color: #00B0B9;
+  font-weight: 600;
+  line-height: 68px;
+  margin-bottom: 29px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+p.bold {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.not-mobile {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/* 页眉 */
+
+div#header-container {
+  background-color: #00B0B9;
+  z-index: 777;
+}
+
+header#top-header {
+  width: 1050px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul#top-menu {
+  width: 770px;
+  padding-top: 43px;
+}
+
+ul#top-menu li {
+  display: inline;
+  font-size: 16.59px;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+ul#top-menu li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul#top-menu li a:hover {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+div#top-logo {
+  width: 280px;
+  text-align: right;
+  padding-top: 33px;
+}
+
+
+
+
+
+
+
+
+/* 第一页 */
+
+.c {
+  display: inline-block;
+  width: 68px;
+}
+
+.s {
+  width: 30px;
+}
+
+div#title-container {
+  background: #129FA6 url('../../images/T.png') no-repeat fixed center top ;
+}
+
+section#title {
+  width: 1050px;
+  height: 650px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+h1#title-text {
+  font-family: "droid-sans-mono", "proxima-nova", arial, sans-serif;;
+  font-size: 108.17px;
+  text-transform: uppercase;
+  padding-top: 250px;
+}
+
+h1#title-text-mobile-1, h1#title-text-mobile-2 {
+  display: none;
+}
+
+.white {
+  color: #FFF;
+}
+
+div#title-arrow {
+  padding-top: 22px;
+}
+
+
+
+
+
+
+/* 重现页眉 */
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+div#second-menu-container {
+  background-color: #00B0B9;
+  z-index: 666;
+  display: none;
+}
+
+section#second-menu {
+  width: 1050px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul#menu {
+  width: 860px;
+  padding-top: 15px;
+}
+
+ul#menu li {
+  display: inline;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+ul#menu li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul#menu li a:hover {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+ul#menu li a.focus {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 1px solid #FFF;
+}
+
+ul#menu li a:hover.focus {
+  border-bottom: 1px solid #000;
+}
+
+div#menu-logo {
+  width: 190px;
+  text-align: right;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+/* 第二页 */
+
+div#intro-container {
+}
+
+
+
+
+
+
+/* 这里使用一个自己设计的图案 */
+section#intro {
+  background: url('../../images/g2.png') no-repeat 0px 0px;
+  width: 1050px;
+  height: 551px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+/*******************/
+
+
+
+
+
+
+
+
+div#intro-text {
+  width: 610px;
+  padding-top: 155px;
+  padding-left: 453px;
+}
+
+
+
+
+
+
+
+
+
+/*利用ps设计图片*/
+
+
+
+/*设计一个和背景图*/
+/* 第三页 */
+div#focus-container {
+  background:#ebebeb url('../../images/p.jpg') no-repeat fixed center top;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/*
+body.ios div#focus-container {
+  background: #EBEBEB url('y2.jpg') no-repeat center top;
+}
+*/
+
+
+/*将图片进行裁剪*/
+section#focus {
+  background: url('../../images/g3.png') no-repeat 0px top;
+  width: 1050px;
+  height: 699px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div#focus-text {
+  width: 520px;
+  padding-top: 200px;
+  z-index: 10;
+}
+
+p#focus-bold {
+  width: 360px;
+}
+
+p#focus-body {
+  width: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*第四页*/
+
+div#story-container {
+}
+
+
+
+/*继续绘图 完成样式设计*/
+section#story {
+  background: url('../../images/g4.png') no-repeat 0px 0px;
+  width: 1050px;
+  height: 527px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div#story-text {
+  width: 425px;
+  padding-top: 190px;
+}
+
+div#story-heading, div#story-heading-mobile {
+  width: 507px;
+  padding-top: 190px;
+  padding-left: 118px;
+}
+
+div#story-heading-mobile {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 第五主页 */
+
+/* 利用PS设计图图片放入其中 */
+
+div#offer-container {
+  background-color: #EBEBEB;
+}
+
+section#offer {
+  background: #EBEBEB url('../../images/g5.png') no-repeat 10px top;
+  width: 1050px;
+  height: 668px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+/*
+body.ios section#offer {
+  background: #EBEBEB url('y1副本.jpg') no-repeat 4px top;
+}*/
+
+
+
+
+div#offer-text {
+  width: 550px;
+  padding-top: 180px;
+}
+
+p#offer-body {
+  width: 430px;
+}
+
+
+
+
+
+
+
+
+
+/* 第六主页 */
+/* 设计图片 */
+
+
+
+div#team-top-container {
+  width: 100%;
+  height: 1000px;
+  background: #222 url('../../images/H.jpg') no-repeat fixed center  50px;
+}
+
+div#team-heading-2 {
+  padding-top: 60px;
+}
+
+section#team-2 {
+  width: 1050px;
+  height: 1050px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section#team-2 h2 {
+  color: #FFF;
+}
+
+section#team-2 h3, div#team-dave-2 p, div#team-thomas-2 p, div#team-katie-2  {
+  color: #000;
+}
+
+div#team-dave-2 {
+  width: 30%;
+  padding-top: 63px;
+}
+
+div#team-thomas-2 {
+  width: 30%;
+  padding-top: 63px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div#team-katie-2 {
+  width: 30%;
+  padding-top: 63px;
+}
+
+.headshot {
+  width: 90%;
+  height: auto;
+}
+
+body.ios div#team-top-container {
+}
+
+div#team-bottom-container {
+  height: 450px;
+  background-color: #00B0B9;
+  background: rgb(0, 176, 185);
+  background: rgba(0, 176, 185, 0.9);
+  margin-top: -450px;
+}
+
+section#team {
+  width: 1050px;
+  height: 1050px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section#team h2, section#team h3, div#team-dave p, div#team-thomas p, div#team-katie  {
+  color: #FFF;
+}
+
+div#team-heading {
+  display: none;
+  width: 10%;
+  padding-top: 60px;
+}
+
+div#team-dave {
+  width: 30%;
+  padding-top: 63px;
+}
+
+div#team-thomas {
+  width: 30%;
+  padding-top: 63px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div#team-katie {
+  width: 30%;
+  padding-top: 63px;
+}
+
+p.team-title {
+  font-style: italic;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 最后主页 */
+
+div#contact-container {
+}
+
+
+
+/* 设计一个图片logo */
+section#contact {
+  background: url('../../images/yumo2.jpg') no-repeat 733px 0px;
+  width: 1050px;
+  height: 648px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section#contact a {
+  color: #000;
+  text-decoration: none;
+}
+
+section#contact a:hover {
+  text-decoration: underline;
+}
+
+div#contact-text {
+  width: 610px;
+  padding-top: 80px;
+}
+
+div#contact-deets {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 60px; 
+}
+
+div#contact-deets ul {
+  padding-left: 20px;
+}
+
+div#contact-deets li {
+  list-style-type: circle;
+}
+
+div#contact-heading {
+  width: 360px;
+}
+
+div#contact-address, div#contact-info {
+  padding-top: 50px;
+}
+
+div#contact-address {
+  width: 185px;
+}
+
+div#contact-info {
+  width: 230px;
+  padding-left: 60px;
+}
+
+/* Footer */
+
+div#footer-container {
+  background-color: #000;
+}
+
+footer#footer {
+  width: 1050px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div#footer-text {
+  width: 525px;
+  font-size: 18px;
+  color: #FFF;
+  padding-top: 25px;
+}
+
+div#footer-logo {
+  width: 525px;
+  text-align: right;
+  padding-top: 20px;
+}
+
+#footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #00B0B9;
+}
+
+/* Menu Header */
+
+div#header-container-mobile {
+  display: none;
+  width: 100%;
+  background-color: #00B0B9;
+  z-index: 777;
+  position: fixed;
+}
+
+header#header-mobile {
+  height: 50px;
+}
+
+div#header-mobile-logo {
+  position: relative;
+  top: 15px;
+}
+
+div#header-mobile-logo img {
+  width: 110px;
+  margin-left: 10px;
+}
+
+span.header-mobile-link {
+  position: relative;
+  top: -6px;
+  left: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+header#header-mobile a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+header#header-mobile a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+div#header-mobile-section {
+  float: right;
+  text-align: right;
+}
+
+div#header-mobile-section span {
+  position: relative;
+  top: 15px;
+  font-size: 14px;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 加强用户体验 */
+/* 适用其他各种浏览器 */
+
+
+@media only screen and (min-width: 960px) and (max-width: 1080px) {
+
+  /* Base Styles */
+
+  h2 {
+    font-size: 64px;
+    line-height: 68px;
+    margin-bottom: 29px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  p.bold {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  /* Top header */
+
+  header#top-header {
+    width: 940px;
+    height: 100px;
+  }
+
+  ul#top-menu {
+    width: 680px;
+    padding-top: 43px;
+  }
+
+  ul#top-menu li {
+    font-size: 16.59px;
+    margin-right: 20px;
+  }
+
+  div#top-logo {
+    width: 260px;
+    text-align: right;
+    padding-top: 33px;
+  }
+
+  /* Title */
+
+  .c {
+    width: 68px;
+  }
+
+  .s {
+    width: 30px;
+  }
+
+  section#title {
+    width: 940px;
+    height: 650px;
+  }
+
+  h1#title-text {
+    font-size: 108.17px;
+    padding-top: 250px;
+  }
+
+  div#title-arrow {
+    padding-top: 22px;
+  }
+
+  /* Second menu */
+
+  section#second-menu {
+    width: 940px;
+    height: 50px;
+  }
+
+  ul#menu {
+    width: 680px;
+    padding-top: 15px;
+  }
+
+  ul#menu li {
+    font-size: 16px;
+    margin-right: 25px;
+  }
+
+  div#menu-logo {
+    width: 260px;
+    padding-top: 15px;
+  }
+
+  /* Intro */
+
+  section#intro {
+    width: 940px;
+    height: 551px;
+  }
+
+  div#intro-text {
+    width: 610px;
+    padding-top: 130px;
+    padding-left: 330px;
+  }
+
+  /* Focus */
+
+  section#focus {
+    width: 940px;
+    height: 699px;
+  }
+
+  div#focus-text {
+    width: 520px;
+    padding-top: 140px;
+  }
+
+  p#focus-bold {
+    width: 360px;
+  }
+
+  p#focus-body {
+    width: 360px;
+  }
+
+  /* Story */
+  
+  section#story {
+    width: 940px;
+    height: 527px;
+  }
+
+  div#story-text {
+    width: 400px;
+    padding-top: 143px;
+  }
+
+  div#story-heading {
+    width: 490px;
+    padding-top: 140px;
+    padding-left: 47px;
+  }
+
+  /* Offer */
+  
+  div#offer-container {
+    background: #EBEBEB url('') no-repeat 25px top;
+  }
+  
+  section#offer {
+    background-image: none;
+    background-color: transparent;
+    width: 1050px;
+    height: 668px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  section#offer {
+    width: 940px;
+    height: 668px;
+  }
+
+  div#offer-text {
+    width: 550px;
+    padding-top: 138px;
+  }
+
+  p#offer-body {
+    width: 430px;
+  }
+
+  /* Team */
+
+  div#team-top-container {
+    width: 100%;
+    height: 1030px;
+  }
+
+  section#team-2 {
+    width: 940px;
+    height: 1050px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  section#team-2 h2 {
+    color: #00B0B9;
+    padding-left: 1
+  }
+
+  section#team-2 h3, div#team-dave-2 p, div#team-thomas-2 p, div#team-katie-2  {
+    color: #000;
+  }
+
+  div#team-dave-2 {
+    width: 30%;
+    padding-top: 63px;
+  }
+
+  div#team-thomas-2 {
+    width: 30%;
+    padding-top: 63px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div#team-katie-2 {
+    width: 30%;
+    padding-top: 63px;
+  }
+
+  div#team-bottom-container {
+    height: 500px;
+    margin-top: -500px;
+  }
+
+  section#team {
+    width: 940px;
+    height: 819px;
+  }
+
+  div#team-heading {
+    display: none;
+  }
+
+  div#team-dave {
+    width: 30%;
+    padding-top: 43px;
+  }
+
+  div#team-thomas {
+    width: 30%;
+    padding-top: 43px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div#team-katie {
+    width: 30%;
+    padding-top: 43px;
+  }
+
+  /* Contact */
+  
+  section#contact {
+    background: url('') no-repeat 633px -180px;
+    width: 940px;
+    height: 648px;
+  }
+  
+  div#contact-text {
+    width: 610px;
+    padding-top: 138px;
+  }
+
+  div#contact-deets {
+    margin-top: -50px;
+  }
+
+  div#contact-heading {
+    width: 360px;
+  }
+
+  div#contact-address, div#contact-info {
+    padding-top: 50px;
+  }
+
+  div#contact-address {
+    width: 185px;
+  }
+
+  div#contact-info {
+    width: 230px;
+    padding-left: 60px;
+  }
+
+  /* Footer */
+
+  footer#footer {
+    width: 940px;
+    height: 70px;
+  }
+
+  div#footer-text {
+    width: 470px;
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  div#footer-logo {
+    width: 470px;
+    padding-top: 20px;
+  }
+
+}
+
+/* Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* Base Styles */
+
+  h2 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 29px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  p.bold {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* Top header */
+
+  header#top-header {
+    width: 750px;
+    height: 100px;
+  }
+
+  ul#top-menu {
+    width: 490px;
+    padding-top: 43px;
+  }
+
+  ul#top-menu li {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  div#top-logo {
+    width: 260px;
+    text-align: right;
+    padding-top: 36px;
+  }
+  
+  div#top-logo img {
+    width: 80%;
+  }
+
+  /* Title */
+
+  .c {
+    width: 55px;
+  }
+
+  .s {
+    width: 25px;
+  }
+
+  section#title {
+    width: 750px;
+    height: 650px;
+  }
+
+  h1#title-text {
+    font-size: 90px;
+    padding-top: 250px;
+  }
+
+  div#title-arrow {
+    padding-top: 22px;
+  }
+
+  /* Second menu */
+
+  section#second-menu {
+    width: 750px;
+    height: 50px;
+  }
+
+  ul#menu {
+    width: 490px;
+    padding-top: 15px;
+  }
+
+  ul#menu li {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  div#menu-logo {
+    width: 260px;
+    padding-top: 15px;
+  }
+
+  /* Intro */
+
+  section#intro {
+    width: 750px;
+    height: 500px;
+  }
+
+  div#intro-text {
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 360px;
+  }
+
+  /* Focus */
+
+  section#focus {
+    background-position: -24px top;
+    width: 750px;
+    height: 600px;
+  }
+
+  div#focus-text {
+    width: 520px;
+    padding-top: 140px;
+  }
+
+  p#focus-bold {
+    width: 330px;
+  }
+
+  p#focus-body {
+    width: 340px;
+  }
+
+  /* Story */
+  
+  section#story {
+    background-position: right 18px top;
+    width: 750px;
+    height: 500px;
+  }
+
+  div#story-text {
+    width: 300px;
+    padding-top: 143px;
+  }
+
+  div#story-heading {
+    width: 390px;
+    padding-top: 140px;
+    padding-left: 60px;
+  }
+
+  /* Offer */
+  
+  div#offer-container {
+    background: #EBEBEB url('') no-repeat left top;
+  }
+  
+  section#offer {
+    background-image: none;
+    background-color: transparent;
+    width: 750px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  div#offer-text {
+    width: 550px;
+    padding-top: 138px;
+  }
+
+  p#offer-body {
+    width: 430px;
+  }
+
+  /* Team */
+
+  div#team-top-container {
+    width: 100%;
+    height: 870px;
+  }
+
+  section#team-2 {
+    width: 750px;
+    height: 1050px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  section#team-2 h2 {
+    color: #00B0B9;
+    padding-left: 1
+  }
+
+  section#team-2 h3, div#team-dave-2 p, div#team-thomas-2 p, div#team-katie-2  {
+    color: #000;
+  }
+
+  div#team-dave-2 {
+    width: 30%;
+    padding-top: 63px;
+  }
+
+  div#team-thomas-2 {
+    width: 30%;
+    padding-top: 63px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div#team-katie-2 {
+    width: 30%;
+    padding-top: 63px;
+  }
+
+  div#team-bottom-container {
+    height: 430px;
+    margin-top: -430px;
+  }
+
+  section#team {
+    width: 750px;
+    height: 819px;
+  }
+
+  div#team-heading {
+    display: none;
+  }
+
+  div#team-dave {
+    width: 30%;
+    padding-top: 43px;
+  }
+
+  div#team-thomas {
+    width: 30%;
+    padding-top: 43px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div#team-katie {
+    width: 30%;
+    padding-top: 43px;
+  }
+
+  /* Contact */
+  
+  section#contact {
+    background: url('') no-repeat 450px -190px;
+    width: 750px;
+    height: 500px;
+  }
+  
+  div#contact-text {
+    width: 610px;
+    padding-top: 138px;
+  }
+
+  div#contact-deets {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -80px;
+  }
+
+  div#contact-heading {
+    width: 360px;
+  }
+
+  div#contact-address, div#contact-info {
+    padding-top: 50px;
+  }
+
+  div#contact-address {
+    width: 185px;
+  }
+
+  div#contact-info {
+    width: 230px;
+    padding-left: 60px;
+  }
+
+  /* Footer */
+
+  footer#footer {
+    width: 750px;
+    height: 70px;
+  }
+
+  div#footer-text {
+    width: 375px;
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  div#footer-logo {
+    width: 375px;
+    padding-top: 20px;
+  }
+
+}
+
+/* Mobile (Landscape) */
+@media only screen and (max-width: 767px) {
+
+  /* Base Styles */
+
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  header#top-header {
+    display: none;
+  }
+  
+  div#header-container-mobile {
+    display: block;
+  }
+
+  h2 {
+    font-size: 39px;
+    line-height: 40px;
+    margin-bottom: 29px;
+  }
+
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  p.bold {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .not-mobile {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  /* Title */
+
+  .c {
+    width: 46px;
+  }
+
+  .s {
+    width: 25px;
+  }
+  
+  .s:after {
+    content: '\A';
+  }
+
+  div#title-container {
+    padding-top: 75px;
+  }
+
+  section#title {
+    width: 100%;
+    height: 380px;
+  }
+
+  h1#title-text {
+    display: none;
+  }
+  
+  h1#title-text-mobile-1, h1#title-text-mobile-2 {
+    font-family: "droid-sans-mono", "proxima-nova", arial, sans-serif;;
+    font-size: 75px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0;
+  }
+  
+  h1#title-text-mobile-1 {
+    padding-top: 60px;
+  }
+  
+  h1#title-text-mobile-2  span.c {
+    color: #FFF;
+  }
+
+  div#title-arrow {
+    padding-top: 40px;
+  }
+
+  /* Intro */
+
+  div#intro-container {
+    width: 100%;
+  }
+
+  section#intro {
+    width: auto;
+    height: 480px;
+    padding: 40px 25px 0;
+    background-size: 200px;
+    background-position: left 229px;
+  }
+
+  div#intro-text {
+    width: 100%;
+    max-width: 450px;
+    padding: 0;
+  }
+
+  /* Focus */
+
+  section#second-menu {
+    display: none;
+  }
+
+  section#focus {
+    background-position: -116px top;
+    width: auto;
+    height: 480px;
+    padding: 100px 25px 0;
+  }
+
+  div#focus-text {
+    width: 100%;
+    max-width: 400px;
+    padding-top: 0;
+  }
+
+  p#focus-bold {
+    width: auto;
+  }
+
+  p#focus-body {
+    width: auto;
+  }
+
+  /* Story */
+  
+  section#story {
+    width: auto;
+    height: 560px;
+    background-position: -80px 150px;
+  }
+
+  div#story-text {
+    width: auto;
+    max-width: 400px;
+    padding: 0 25px;
+  }
+
+  div#story-heading, div#story-heading-mobile {
+    width: auto;
+    max-width: 400px;
+    padding: 0 25px;
+    margin-top: 60px;
+  }
+  
+  div#story-heading-mobile {
+    display: block;
+  }
+  
+  div#story-heading {
+    display: none;
+  }
+
+  /* Offer */
+  
+  div#offer-container {
+    width: 100%;
+    background: #EBEBEB url('') no-repeat -637px top;
+  }
+  
+  section#offer {
+    background-image: none;
+    background-color: transparent;
+    width: auto;
+    height: 530px;
+    margin: 0 auto;
+    padding: 0 25px;
+    padding-top: 40px;
+  }
+
+  section#offer {
+    width: auto;
+  }
+
+  div#offer-text {
+    width: auto;
+    max-width: 400px;
+    padding-top: 30px;
+  }
+
+  p#offer-body {
+    width: auto;
+  }
+
+  /* Team */
+
+  div#team-top-container {
+    width: 100%;
+    height: 270px;
+    padding: 0 25px;
+    display: none;
+  }
+
+  section#team-2 {
+    width: 100%;
+    height: auto
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  section#team-2 h2 {
+    color: #00B0B9;
+    padding-left: 1
+  }
+
+  section#team-2 h3, div#team-dave-2 p, div#team-thomas-2 p, div#team-katie-2  {
+    color: #000;
+  }
+
+  div#team-dave-2 {
+    width: 30%;
+    padding-top: 63px;
+  }
+
+  div#team-thomas-2 {
+    width: 30%;
+    padding-top: 63px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div#team-katie-2 {
+    width: 30%;
+    padding-top: 63px;
+  }
+  div#team-bottom-container {
+    height: auto;
+    margin-top: 0;
+  }
+
+  section#team {
+    height: 1030px;
+    width: auto;
+    padding: 10px 25px 0;
+  }
+
+  div#team-heading {
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+  }
+
+  div#team-heading {
+    display: block;
+  }
+
+  div#team-dave {
+    width: 100%;
+    padding-top: 43px;
+  }
+
+  div#team-thomas {
+    width: 100%;
+    padding: 0;
+    padding-top: 43px;
+  }
+
+  div#team-katie {
+    width: 100%;
+    padding-top: 43px;
+  }
+
+  /* Contact */
+  
+  section#contact {
+    background: url('') no-repeat right 150px;
+    background-size: 200px;
+    padding: 40px 25px 0;
+    width: auto;
+    height: 480px;
+  }
+  
+  div#contact-text {
+    width: 100%;
+    max-width: 400px;
+    padding-top: 30px;
+  }
+
+  div#contact-deets {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -30px;
+  }
+
+  div#contact-heading {
+    width: 100%;
+  }
+
+  div#contact-address {
+    width: 100%;
+    padding-top: 15px;
+  }
+  
+  div#contact-info {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 0;
+  }
+
+  /* Footer */
+
+  footer#footer {
+    width: 100%;
+    height: 70px;
+  }
+
+  div#footer-text {
+    width: 50%;
+    font-size: 14px;
+    padding-top: 28px;
+  }
+  
+  div#footer-text span {
+  padding-left: 20px;
+  }
+
+  div#footer-logo {
+    width: 50%;
+    padding-top: 20px;
+  }
+  
+  body.ios div#footer-logo {
+    padding-top: 15px;
+  }
+  
+  div#footer-logo img {
+    padding-right: 20px;
+  }
+
+}
+
+/* Mobile (Portrait) */
+@media only screen and (max-width: 479px) {
+
+}
